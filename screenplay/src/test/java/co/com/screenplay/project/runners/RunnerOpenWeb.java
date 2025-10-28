@@ -6,12 +6,12 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/calendar.feature",
+        features = "src/test/resources/features/opencart.feature",
         glue = "co.com.screenplay.project.stepdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        tags = "@prueba2"
+        tags = "@prueba"
 )
 
-
 public class RunnerOpenWeb {
+
 }

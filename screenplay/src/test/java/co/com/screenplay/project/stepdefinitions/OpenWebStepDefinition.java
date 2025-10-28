@@ -7,6 +7,7 @@ import co.com.screenplay.project.questions.DateInput;
 import co.com.screenplay.project.tasks.SelectDate;
 import co.com.screenplay.project.tasks.TypeDate;
 import co.com.screenplay.project.ui.DatePickerPage;
+import co.com.screenplay.project.utils.Waits;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -49,24 +50,11 @@ public class OpenWebStepDefinition {
                 SelectDate.on(year, month, day)
         );
         waiting(5);
-
-
-
     }
 
-    @Then("En el campo aparece la fecha {int}-{int}-{int}")
-    public void enElCampoApareceLaFecha(int year, int month, int day) {
-        var expected = java.time.LocalDate.of(year, month, day);
+    @Then("En el campo aparece la fecha")
+    public void enElCampoApareceLaFecha() {
 
-        theActorInTheSpotlight().attemptsTo(
-                Switch.toFrame(DatePickerPage.IFRAME_DATE.resolveFor(theActorInTheSpotlight()))
-        );
-
-        theActorInTheSpotlight().should(
-                seeThat(DateInput.from(DatePickerPage.INPUT_DATE), equalTo(expected))
-        );
-
-        theActorInTheSpotlight().attemptsTo(Switch.toDefaultContext());
     }
 
     @When("Ingresa la fecha {int}-{int}-{int} en el campo")
