@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: io.appium:java-client:all:9.4.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.appium" artifactId="java-client" version="9.4.0" baseVersion="9.4.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.appium/java-client/9.4.0/6fce81df32ea9654bddc0436f5168aaf43b2656a/java-client-9.4.0-all.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

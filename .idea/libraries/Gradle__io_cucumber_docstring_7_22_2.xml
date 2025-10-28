@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: io.cucumber:docstring:7.22.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.cucumber" artifactId="docstring" version="7.22.2" baseVersion="7.22.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/docstring/7.22.2/ecd8d714c6cd03113d17a139ea0eae90e52d4d52/docstring-7.22.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
