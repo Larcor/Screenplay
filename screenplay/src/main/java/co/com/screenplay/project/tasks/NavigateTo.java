@@ -1,7 +1,6 @@
 package co.com.screenplay.project.tasks;
 
 import co.com.screenplay.project.ui.HeaderPage;
-import net.serenitybdd.annotations.Step;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;

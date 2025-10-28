@@ -16,10 +16,6 @@ public class OpenWeb implements Task {
 
     private EnvironmentVariables environmentVariables;
 
-    /*public OpenWeb() {
-        this.environmentVariables = SystemEnvironmentVariables.createEnvironmentVariables();
-    }*/
-
     @Override
     @Step("{0} abre el navegador y navega a la URL configurada")
     public <T extends Actor> void performAs(T actor) {

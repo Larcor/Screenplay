@@ -13,7 +13,6 @@ public class CheckoutFormPage extends PageObject {
     public static final Target CONTINUE_BUTTON = Target.the("continue button")
             .located(By.id("button-account"));
 
-
     public static final Target FIRSTNAME_INPUT = Target.the("first name input")
             .located(By.id("input-payment-firstname"));
     public static final Target LASTNAME_INPUT = Target.the("last name input")
